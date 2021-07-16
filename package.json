@@ -1,0 +1,30 @@
+{
+  "name": "reward-points",
+  "version": "0.0.1",
+  "description": "Sample ReactJS application for calculating reward points",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "./webpack.config.mjs",
+    "watch": "./webpack.config.mjs --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trisys3/reward-points.git"
+  },
+  "author": "Sean Moran (sean_r_moran@msn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trisys3/reward-points/issues"
+  },
+  "homepage": "https://github.com/trisys3/reward-points#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "chalk": "^4.1.1",
+    "css-loader": "^5.2.6",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0"
+  }
+}
